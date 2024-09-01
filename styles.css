@@ -64,10 +64,11 @@ li {
     transition: background-color 0.3s;
 }
 
-li.completed {
-    background-color: #d4edda;
+.completed {
     text-decoration: line-through;
+    color: gray;
 }
+
 
 li button {
     background-color: #dc3545;
